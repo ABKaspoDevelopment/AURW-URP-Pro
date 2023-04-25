@@ -24,7 +24,7 @@ namespace ABKaspo.Assets.AURW.Ocean
                 {
                     EditorUtility.DisplayDialog("AURW Manager", "AURW cloudn't find one, Do you want create one?", "Ok");
                     GameObject oceanManager = new GameObject("AURW Manager");
-                    oceanManager.AddComponent<OceanCheker>();
+                    oceanManager.AddComponent<OceanChecker>();
                     oceanManager.AddComponent<OceanManager>();
                     GameObject.DestroyImmediate(OceanManager.thisGameObject);
 

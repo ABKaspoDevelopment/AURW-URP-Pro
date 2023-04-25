@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   biggerWater: {fileID: 8857654044585536303, guid: 77548c46d43ce944cafd537cf8e0018c, type: 3}
   smallerWater: {fileID: -4575628506593313747, guid: 77548c46d43ce944cafd537cf8e0018c, type: 3}
+  Procedural: {fileID: 540585592618387851, guid: 2cd1343c909d28d40be18f2380405bdc, type: 3}

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 [ExecuteInEditMode]
-public class OceanCheker : MonoBehaviour
+public class OceanChecker : MonoBehaviour
 {
     // This script keep the gameobject in 000 to a better organitation
     void Start()
