@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 128e95b54c9e5c74eba6b51e07dc0698
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Foam_Texture: {fileID: 2800000, guid: a8859b18ee96aa54a831a42604126658, type: 3}
+  - _Main_Normal: {fileID: 2800000, guid: 177fa9a2b62a6a54399f52d76323c3e3, type: 3}
+  - _Second_Normal: {fileID: 2800000, guid: 61c9747d2e1adce409f45db5c03c7835, type: 3}
+  - _Bigger_Normal: {fileID: 2800000, guid: 48b0811a0212d464382d87c7f0a27821, type: 3}
+  - _Foam_Normal: {fileID: 2800000, guid: fce8dc308f8a47d42b115d1ae05368df, type: 3}
+  - unity_Lightmaps: {instanceID: 0}
+  - unity_LightmapsInd: {instanceID: 0}
+  - unity_ShadowMasks: {instanceID: 0}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

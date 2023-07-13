@@ -2,18 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
-namespace ABKaspo.Assets.AURW.AURW_Editor {
+namespace ABKaspo.Assets.AURW.ScriptEditor
+{
     public class AURW_MenuBarEditor : EditorWindow
     {
-        [MenuItem("ABKaspo/About/A.U.R.W. Version")]
-        public static void ShowAURWVersion()
-        {
-            AURW_MenuBarEditor window = (AURW_MenuBarEditor)EditorWindow.GetWindow(typeof(AURW_MenuBarEditor));
-            window.titleContent.text = "A.U.R.W. Version";
-            window.GetType();
-            window.Show();
-            
-        }
         [MenuItem("ABKaspo/About/Contact Us/YouTube Channel")]
         public static void OpenYoutubeChannel()
         {
@@ -29,14 +21,15 @@ namespace ABKaspo.Assets.AURW.AURW_Editor {
         {
             Application.OpenURL("mailto:abkaspo@gmail.com");
         }
-        string currentAURWVersion;
-        string lastAURWVersion;
-        private void OnGUI()
+        [MenuItem("ABKaspo/About/Documentation")]
+        public static void OpenDocumentation()
         {
-            GUILayout.Label("About A.U.R.W.", EditorStyles.boldLabel);
-            GUILayout.Label("Your Current AURW Version is :" + currentAURWVersion);
-            GUILayout.Label("Last AURW Version is :" + lastAURWVersion);
-
+            Application.OpenURL("https://sites.google.com/view/abkaspogames/aurw");
+        }
+        [MenuItem("ABKaspo/Report a Bug")]
+        public static void ReportABug()
+        {
+            Application.OpenURL("https://sites.google.com/view/abkaspogames/client-support");
         }
     }
 }

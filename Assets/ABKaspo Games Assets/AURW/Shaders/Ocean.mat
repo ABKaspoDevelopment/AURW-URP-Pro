@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ocean
+  m_Shader: {fileID: 4800000, guid: 128e95b54c9e5c74eba6b51e07dc0698, type: 3}
+  m_ValidKeywords:
+  - _ALPHATEST_ON
+  - _RECEIVE_SHADOWS_OFF
+  - _REFRACTION
+  - _SPECULAR_SETUP
+  - _SURFACE_TYPE_TRANSPARENT
+  - _UNDER_WATER
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses:
+  - DepthOnly
+  - SHADOWCASTER
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Bigger_Normal:
+        m_Texture: {fileID: 2800000, guid: 48b0811a0212d464382d87c7f0a27821, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Foam_Normal:
+        m_Texture: {fileID: 2800000, guid: fce8dc308f8a47d42b115d1ae05368df, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Foam_Texture:
+        m_Texture: {fileID: 2800000, guid: a8859b18ee96aa54a831a42604126658, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Main_Normal:
+        m_Texture: {fileID: 2800000, guid: 177fa9a2b62a6a54399f52d76323c3e3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Second_Normal:
+        m_Texture: {fileID: 2800000, guid: 61c9747d2e1adce409f45db5c03c7835, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 1
+    - _Amplitude1: 3.96
+    - _Amplitude2: 2
+    - _Amplitude3: 2
+    - _Amplitude4: 2
+    - _Bigger_Speed_Divider: 10
+    - _Bigger_Tiling: 2
+    - _Blend: 0
+    - _CastShadows: 0
+    - _Cull: 0
+    - _Depth: 0.03
+    - _Depth_Strength: 1
+    - _Depth_Wave: 9
+    - _DstBlend: 10
+    - _Fresnel_Power: 1
+    - _Gravity: 9
+    - _Normal_Strength: 0.4
+    - _Phase: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _REFRACTION: 1
+    - _ReceiveShadows: 0
+    - _Refraction: 0.05
+    - _Smoothness: 0.85
+    - _Speed: 1
+    - _SrcBlend: 5
+    - _Surface: 1
+    - _Tiling: 12
+    - _UNDER_WATER: 1
+    - _Under_Water_Effect: 1
+    - _WAVING: 0
+    - _WorkflowMode: 0
+    - _ZTest: 2
+    - _ZWrite: 0
+    - _ZWriteControl: 0
+    m_Colors:
+    - _Color_A: {r: 0, g: 0.196, b: 1, a: 0.8}
+    - _Color_B: {r: 0, g: 0.631, b: 1, a: 1}
+    - _Color_C: {r: 0.03137254, g: 0.2137541, b: 0.772549, a: 1}
+    - _Color_D: {r: 0, g: 0.745283, b: 0.6610448, a: 1}
+    - _Direction1: {r: 0.05, g: 0, b: 0.07, a: 0}
+    - _Direction2: {r: 0.1, g: 0, b: 0.06, a: 0}
+    - _Direction3: {r: 0.01, g: 0, b: 0, a: 0}
+    - _Direction4: {r: 0, g: 0, b: -0.12, a: 0}
+    - _Direction_A: {r: 1, g: -1, b: 0, a: 0}
+    - _Direction_B: {r: -1, g: 1, b: 0, a: 0}
+    - _Foam_Color: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
+    - _TimeScales: {r: 0.1, g: 0.2, b: 0.3, a: 0.5}
+  m_BuildTextureStacks: []
